@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		399323092B136D2700A9FB89 /* ParallaxCarouselApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399323082B136D2700A9FB89 /* ParallaxCarouselApp.swift */; };
+		3993230B2B136D2700A9FB89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3993230A2B136D2700A9FB89 /* ContentView.swift */; };
+		3993230D2B136D2700A9FB89 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3993230C2B136D2700A9FB89 /* Item.swift */; };
+		3993230F2B136D2800A9FB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3993230E2B136D2800A9FB89 /* Assets.xcassets */; };
+		399323122B136D2800A9FB89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399323112B136D2800A9FB89 /* Preview Assets.xcassets */; };
+		3993231C2B136D2800A9FB89 /* ParallaxCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3993231B2B136D2800A9FB89 /* ParallaxCarouselTests.swift */; };
+		399323262B136D2800A9FB89 /* ParallaxCarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399323252B136D2800A9FB89 /* ParallaxCarouselUITests.swift */; };
+		399323282B136D2800A9FB89 /* ParallaxCarouselUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399323272B136D2800A9FB89 /* ParallaxCarouselUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		399323182B136D2800A9FB89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399322FD2B136D2700A9FB89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 399323042B136D2700A9FB89;
+			remoteInfo = ParallaxCarousel;
+		};
+		399323222B136D2800A9FB89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399322FD2B136D2700A9FB89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 399323042B136D2700A9FB89;
+			remoteInfo = ParallaxCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		399323052B136D2700A9FB89 /* ParallaxCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		399323082B136D2700A9FB89 /* ParallaxCarouselApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselApp.swift; sourceTree = "<group>"; };
+		3993230A2B136D2700A9FB89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3993230C2B136D2700A9FB89 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3993230E2B136D2800A9FB89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		399323112B136D2800A9FB89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		399323172B136D2800A9FB89 /* ParallaxCarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxCarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3993231B2B136D2800A9FB89 /* ParallaxCarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselTests.swift; sourceTree = "<group>"; };
+		399323212B136D2800A9FB89 /* ParallaxCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		399323252B136D2800A9FB89 /* ParallaxCarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselUITests.swift; sourceTree = "<group>"; };
+		399323272B136D2800A9FB89 /* ParallaxCarouselUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		399323022B136D2700A9FB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399323142B136D2800A9FB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3993231E2B136D2800A9FB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		399322FC2B136D2700A9FB89 = {
+			isa = PBXGroup;
+			children = (
+				399323072B136D2700A9FB89 /* ParallaxCarousel */,
+				3993231A2B136D2800A9FB89 /* ParallaxCarouselTests */,
+				399323242B136D2800A9FB89 /* ParallaxCarouselUITests */,
+				399323062B136D2700A9FB89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		399323062B136D2700A9FB89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				399323052B136D2700A9FB89 /* ParallaxCarousel.app */,
+				399323172B136D2800A9FB89 /* ParallaxCarouselTests.xctest */,
+				399323212B136D2800A9FB89 /* ParallaxCarouselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		399323072B136D2700A9FB89 /* ParallaxCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				399323082B136D2700A9FB89 /* ParallaxCarouselApp.swift */,
+				3993230A2B136D2700A9FB89 /* ContentView.swift */,
+				3993230C2B136D2700A9FB89 /* Item.swift */,
+				3993230E2B136D2800A9FB89 /* Assets.xcassets */,
+				399323102B136D2800A9FB89 /* Preview Content */,
+			);
+			path = ParallaxCarousel;
+			sourceTree = "<group>";
+		};
+		399323102B136D2800A9FB89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				399323112B136D2800A9FB89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3993231A2B136D2800A9FB89 /* ParallaxCarouselTests */ = {
+			isa = PBXGroup;
+			children = (
+				3993231B2B136D2800A9FB89 /* ParallaxCarouselTests.swift */,
+			);
+			path = ParallaxCarouselTests;
+			sourceTree = "<group>";
+		};
+		399323242B136D2800A9FB89 /* ParallaxCarouselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				399323252B136D2800A9FB89 /* ParallaxCarouselUITests.swift */,
+				399323272B136D2800A9FB89 /* ParallaxCarouselUITestsLaunchTests.swift */,
+			);
+			path = ParallaxCarouselUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		399323042B136D2700A9FB89 /* ParallaxCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3993232B2B136D2800A9FB89 /* Build configuration list for PBXNativeTarget "ParallaxCarousel" */;
+			buildPhases = (
+				399323012B136D2700A9FB89 /* Sources */,
+				399323022B136D2700A9FB89 /* Frameworks */,
+				399323032B136D2700A9FB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaxCarousel;
+			productName = ParallaxCarousel;
+			productReference = 399323052B136D2700A9FB89 /* ParallaxCarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		399323162B136D2800A9FB89 /* ParallaxCarouselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3993232E2B136D2800A9FB89 /* Build configuration list for PBXNativeTarget "ParallaxCarouselTests" */;
+			buildPhases = (
+				399323132B136D2800A9FB89 /* Sources */,
+				399323142B136D2800A9FB89 /* Frameworks */,
+				399323152B136D2800A9FB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				399323192B136D2800A9FB89 /* PBXTargetDependency */,
+			);
+			name = ParallaxCarouselTests;
+			productName = ParallaxCarouselTests;
+			productReference = 399323172B136D2800A9FB89 /* ParallaxCarouselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		399323202B136D2800A9FB89 /* ParallaxCarouselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399323312B136D2800A9FB89 /* Build configuration list for PBXNativeTarget "ParallaxCarouselUITests" */;
+			buildPhases = (
+				3993231D2B136D2800A9FB89 /* Sources */,
+				3993231E2B136D2800A9FB89 /* Frameworks */,
+				3993231F2B136D2800A9FB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				399323232B136D2800A9FB89 /* PBXTargetDependency */,
+			);
+			name = ParallaxCarouselUITests;
+			productName = ParallaxCarouselUITests;
+			productReference = 399323212B136D2800A9FB89 /* ParallaxCarouselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		399322FD2B136D2700A9FB89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					399323042B136D2700A9FB89 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					399323162B136D2800A9FB89 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 399323042B136D2700A9FB89;
+					};
+					399323202B136D2800A9FB89 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 399323042B136D2700A9FB89;
+					};
+				};
+			};
+			buildConfigurationList = 399323002B136D2700A9FB89 /* Build configuration list for PBXProject "ParallaxCarousel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 399322FC2B136D2700A9FB89;
+			productRefGroup = 399323062B136D2700A9FB89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				399323042B136D2700A9FB89 /* ParallaxCarousel */,
+				399323162B136D2800A9FB89 /* ParallaxCarouselTests */,
+				399323202B136D2800A9FB89 /* ParallaxCarouselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		399323032B136D2700A9FB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399323122B136D2800A9FB89 /* Preview Assets.xcassets in Resources */,
+				3993230F2B136D2800A9FB89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399323152B136D2800A9FB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3993231F2B136D2800A9FB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		399323012B136D2700A9FB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3993230B2B136D2700A9FB89 /* ContentView.swift in Sources */,
+				3993230D2B136D2700A9FB89 /* Item.swift in Sources */,
+				399323092B136D2700A9FB89 /* ParallaxCarouselApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399323132B136D2800A9FB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3993231C2B136D2800A9FB89 /* ParallaxCarouselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3993231D2B136D2800A9FB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399323262B136D2800A9FB89 /* ParallaxCarouselUITests.swift in Sources */,
+				399323282B136D2800A9FB89 /* ParallaxCarouselUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		399323192B136D2800A9FB89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 399323042B136D2700A9FB89 /* ParallaxCarousel */;
+			targetProxy = 399323182B136D2800A9FB89 /* PBXContainerItemProxy */;
+		};
+		399323232B136D2800A9FB89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 399323042B136D2700A9FB89 /* ParallaxCarousel */;
+			targetProxy = 399323222B136D2800A9FB89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		399323292B136D2800A9FB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3993232A2B136D2800A9FB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3993232C2B136D2800A9FB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParallaxCarousel/Preview Content\"";
+				DEVELOPMENT_TEAM = L25LXZY6LR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielkarath.ParallaxCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3993232D2B136D2800A9FB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParallaxCarousel/Preview Content\"";
+				DEVELOPMENT_TEAM = L25LXZY6LR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielkarath.ParallaxCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3993232F2B136D2800A9FB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L25LXZY6LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielkarath.ParallaxCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallaxCarousel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParallaxCarousel";
+			};
+			name = Debug;
+		};
+		399323302B136D2800A9FB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L25LXZY6LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielkarath.ParallaxCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallaxCarousel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParallaxCarousel";
+			};
+			name = Release;
+		};
+		399323322B136D2800A9FB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L25LXZY6LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielkarath.ParallaxCarouselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParallaxCarousel;
+			};
+			name = Debug;
+		};
+		399323332B136D2800A9FB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L25LXZY6LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielkarath.ParallaxCarouselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParallaxCarousel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		399323002B136D2700A9FB89 /* Build configuration list for PBXProject "ParallaxCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399323292B136D2800A9FB89 /* Debug */,
+				3993232A2B136D2800A9FB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3993232B2B136D2800A9FB89 /* Build configuration list for PBXNativeTarget "ParallaxCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3993232C2B136D2800A9FB89 /* Debug */,
+				3993232D2B136D2800A9FB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3993232E2B136D2800A9FB89 /* Build configuration list for PBXNativeTarget "ParallaxCarouselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3993232F2B136D2800A9FB89 /* Debug */,
+				399323302B136D2800A9FB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399323312B136D2800A9FB89 /* Build configuration list for PBXNativeTarget "ParallaxCarouselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399323322B136D2800A9FB89 /* Debug */,
+				399323332B136D2800A9FB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 399322FD2B136D2700A9FB89 /* Project object */;
+}
